@@ -1,0 +1,44 @@
+baseurl = "https://github.com/aerott/"
+#baseurl = "http://localhost:1313/"
+languageCode = "en-us"
+title = 'aerott'
+theme = "0xDC"
+paginate = 5
+
+[params]
+  author = "aerott"
+  twitter = ""
+  largeTwitterCard = true
+  description = "My Blog"
+  enforceDarkMode = true
+  enableSearch = false
+  showReadTime = false
+
+[menu]
+[[menu.main]]
+  identifier = 'about'
+  name = 'About'
+  title = 'A few bits about me'
+  url = '/about'
+  weight = 1
+
+[[menu.main]]
+  identifier = 'blog'
+  name = 'blog'
+  title = 'My blog'
+  url = '/blog'
+  weight = 5
+
+[[menu.main]]
+  identifier = 'projects'
+  name = 'projects'
+  title = 'My projects'
+  url = '/projects'
+  weight = 10
+
+[[menu.main]]
+  identifier = 'resume'
+  name = 'resume'
+  title = 'My resume'
+  url = '/resume'
+  weight = 15
